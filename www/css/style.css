@@ -1,0 +1,122 @@
+body {
+    background: transparent url("../images/home.png") no-repeat ;
+    background-size: auto 100%   ;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'mplus';
+}
+
+.back {
+    background-color: white;
+    background-image: url("../images/home.png")  ;
+    background-repeat: no-repeat;
+    background-size: auto 100% ;  
+    margin: 0;
+    padding: 0;
+    width:auto;
+    height: 100%;
+    color: white;
+
+}
+
+.titleicon{
+    font-family: 'mplus';
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 10%;
+    margin:0 auto;
+    opacity: 0.5;
+}
+
+.title{
+    font-family: 'mplus';
+    font-size: 30px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 30%;
+    margin:0 auto;
+    opacity: 0.7;
+}
+
+.title2{
+    font-family: 'mplus';
+}
+
+.buttonGroup {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 60%;    
+}
+
+.startButton{
+    font-family: 'mplus';
+    width:60%;
+/*    position: absolute;
+    left: 0;
+    right: 0;
+    top: 60%;*/
+    margin:4px auto;
+}
+
+.startButton2{
+    font-family: 'mplus';
+    width:60%;
+/*    position: absolute;
+    left: 0;
+    right: 0;
+    top: 70%;*/
+    margin:4px auto;
+}
+
+.startButton3{
+    font-family: 'mplus';
+    width:60%;
+/*    position: absolute;
+    left: 0;
+    right: 0;
+    top: 80%;*/
+    margin:16px auto;
+    background-color:rgba(255,255,255,0.15);
+    color: white
+}
+
+
+
+/*
+http://balancenote.com/2013/08/30/flatdesign-font/
+*/
+@font-face {
+    font-family: 'mplus';
+    src: url("../fonts/mplus-1c-light.ttf") format('truetype');
+}
+
+.social-icon {
+    display: block;
+    float: left;
+    margin: 4px 4px 4px 4px;
+    padding: 0;
+}
+.social-icon i {
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    border-radius: 50%;
+    background: #0E7AC4;
+    color: #FFFFFF;
+    line-height: 40px;
+    text-align: center;
+}
+.line{
+    font-family: 'mplus';
+    margin: 4px 4px 4px 60px;
+}
+.status{
+    margin: 0px 30px 0px 0px;
+    text-align: right;
+    color: #CCCCCC;
+}

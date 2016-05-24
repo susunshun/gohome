@@ -1,0 +1,31 @@
+<ons-page>
+    <ons-toolbar>
+        <div class="left"><ons-back-button>Back</ons-back-button></div>
+        <div class="center"><div class="title2">おうちを設定</div></div>
+    </ons-toolbar>
+
+    <div style="text-align: left">
+        <ons-list>
+            <ons-list-item class="list__item--tappable list__item__line-height" modifier="chevron" onclick="moveDetailPage1()" >
+                <div class="social-icon">
+                    <i class="fa fa-subway"></i>
+                </div>
+                <div class="line">
+                    最寄駅を登録
+                    <div class="status" style="float:right"><div id="status-station"></div></div>
+                </div>
+                
+                
+            </ons-list-item>
+            <ons-list-item class="list__item--tappable list__item__line-height" modifier="chevron" onCLick="moveDetailPage2()">
+                <div class="social-icon">
+                    <i class="fa fa-map-pin"></i>
+                </div>
+                <div class="line">
+                    家の座標を登録
+                    <div class="status" style="float:right"><div id="status-latlng"></div></div>
+                </div>
+            </ons-list-item>
+        </ons-list>       
+    </div>
+</ons-page>
